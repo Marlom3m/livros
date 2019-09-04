@@ -1,15 +1,15 @@
 <?php
 /** O nome do banco de dados*/	
-define('DB_NAME', 'emplivros');
+define('DB_NAME', 'u411879655_teste');
 		
 /** Usuário do banco de dados MySQL */	
-define('DB_USER', 'root');		
+define('DB_USER', 'u411879655_teste');		
 
 /** Senha do banco de dados MySQL */	
-define('DB_PASSWORD', '');		
+define('DB_PASSWORD', 'teste123');		
 
 /** nome do host do MySQL */	
-define('DB_HOST', 'localhost');		
+define('DB_HOST', 'sql134.main-hosting.eu.');		
 
 /** caminho absoluto para a pasta do sistema **/	
 if ( !defined('ABSPATH') )		
