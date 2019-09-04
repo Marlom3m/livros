@@ -1,0 +1,17 @@
+﻿use emprestimolivro;
+
+create table livro(
+
+
+insert into area values('Arte');
+insert into area values('Biologia');
+insert into area values('Filosofia');
+insert into area values('Física');
+insert into area values('Geografia');
+insert into area values('LEM - Espanhol');
+insert into area values('LEM - Inglês');
+insert into area values('Língua Portuguesa');
+insert into area values('Matemática');
+insert into area values('Química');
+insert into area values('Sociologia');
+insert into area values('História');

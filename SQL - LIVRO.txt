@@ -1,0 +1,55 @@
+use emprestimolivro;
+
+create table livro(
+    id int auto_increment,
+    titulo varchar(50) not null,
+    area varchar(25),
+    validade int,
+	quant int,
+    PRIMARY KEY (id)
+    );
+
+insert into livro (titulo,area,validade) values('ARTE POR TODA PARTE','Arte', 2020);
+
+insert into livro (titulo,area,validade) values('BIOLOGIA Vol.1','Biologia', 2020);
+insert into livro (titulo,area,validade) values('BIOLOGIA Vol.2','Biologia', 2020);
+insert into livro (titulo,area,validade) values('BIOLOGIA Vol.3','Biologia', 2020);
+
+insert into livro (titulo,area,validade) values('REFLEXÕES: FILOSOFIA E COTIDIANO','Filosofia', 2020);
+
+insert into livro (titulo,area,validade) values('FÍSICA PARA O ENSINO MÉDIO Vol.1','Física', 2020);
+insert into livro (titulo,area,validade) values('FÍSICA PARA O ENSINO MÉDIO Vol.2','Física', 2020);
+insert into livro (titulo,area,validade) values('FÍSICA PARA O ENSINO MÉDIO Vol.3','Física', 2020);
+
+insert into livro (titulo,area,validade) values('GEOGRAFIA GERAL E DO BRASIL Vol.1','Geografia', 2020);
+insert into livro (titulo,area,validade) values('GEOGRAFIA GERAL E DO BRASIL Vol.2','Geografia', 2020);
+insert into livro (titulo,area,validade) values('GEOGRAFIA GERAL E DO BRASIL Vol.3','Geografia', 2020);
+
+insert into livro (titulo,area,validade) values('OLHARES DA HISTÓRIA Vol.1','História', 2020);
+insert into livro (titulo,area,validade) values('OLHARES DA HISTÓRIA Vol.2','História', 2020);
+insert into livro (titulo,area,validade) values('OLHARES DA HISTÓRIA Vol.3','História', 2020);
+
+insert into livro (titulo,area,validade) values('SENTIDOS EN LENGUA ESPAÑOLA Vol.1','LEM - Espanhol', 2020);
+insert into livro (titulo,area,validade) values('SENTIDOS EN LENGUA ESPAÑOLA Vol.2','LEM - Espanhol', 2020);
+insert into livro (titulo,area,validade) values('SENTIDOS EN LENGUA ESPAÑOLA Vol.3','LEM - Espanhol', 2020);
+
+insert into livro (titulo,area,validade) values('WAY TO GO! Vol.1','LEM - Inglês', 2020);
+insert into livro (titulo,area,validade) values('WAY TO GO! Vol.2','LEM - Inglês', 2020);
+insert into livro (titulo,area,validade) values('WAY TO GO! Vol.3','LEM - Inglês', 2020);
+
+insert into livro (titulo,area,validade) values('VEREDAS DA PALAVRA Vol.1','Língua Portuguesa', 2020);
+insert into livro (titulo,area,validade) values('VEREDAS DA PALAVRA Vol.2','Língua Portuguesa', 2020);
+insert into livro (titulo,area,validade) values('VEREDAS DA PALAVRA Vol.3','Língua Portuguesa', 2020);
+
+insert into livro (titulo,area,validade) values('MATEMÁTICA - CONTEXTO & APLICAÇÕES Vol.1','Matemática', 2020);
+insert into livro (titulo,area,validade) values('MATEMÁTICA - CONTEXTO & APLICAÇÕES Vol.2','Matemática', 2020);
+insert into livro (titulo,area,validade) values('MATEMÁTICA - CONTEXTO & APLICAÇÕES Vol.3','Matemática', 2020);
+
+insert into livro (titulo,area,validade) values('QUÍMICA Vol.1','Química', 2020);
+insert into livro (titulo,area,validade) values('QUÍMICA Vol.2','Química', 2020);
+insert into livro (titulo,area,validade) values('QUÍMICA Vol.3','Química', 2020);
+
+insert into livro (titulo,area,validade) values('SOCIOLOGIA EM MOVIMENTO','Sociologia', 2020);
+
+
+

@@ -1,0 +1,53 @@
+﻿create database emprestimolivro;
+
+use emprestimolivro;
+
+create table area(
+	id int,
+	nome varchar(25) not null,
+	primary key (id)
+);
+
+create table livro(
+    id int auto_increment,
+    titulo varchar(50) not null,
+    fk_area int,
+    validade int,
+    quant int,
+    PRIMARY KEY (id),
+    FOREIGN KEY (fk_area) references area(id)	
+    );
+
+create table estudante(
+    id int,
+    nome varchar(50) not null,
+    email varchar(50),
+    ativo bit
+    PRIMARY KEY (id)
+    );
+	
+create table servidor(
+    id int,
+    nome varchar(50) not null,
+    administrador tinyint not null,
+    ativo bit,
+    senha varchar(10) not null,
+    PRIMARY KEY (id)
+    );
+	
+create table emprestimo(
+	id int auto_increment,
+	fk_servidor int not null,
+	fk_livro int not null,
+	fk_estudante int not null,
+	data_i Date not null,
+	data_f Date,
+	emprestado bit,
+	primary key(id),
+	foreign key (fk_servidor) references servidor(id),
+	foreign key (fk_livro) references livro(id),
+	foreign key (fk_estudante) references estudante(id)
+	);
+	
+
+
