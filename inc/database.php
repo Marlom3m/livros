@@ -312,7 +312,7 @@ function update($table = null, $id = 0, $data = null) {
 	$items = rtrim($items, ',');		  
 	$sql  = "UPDATE " . $table;	  
 	$sql .= " SET $items";	  
-	$sql .= " WHERE id=" . $id . ";";		  
+	echo $sql .= " WHERE id=" . $id . ";";		  
 	try {	    
 		$database->query($sql);		    
 		$_SESSION['message'] = 'Registro atualizado com sucesso.';	    

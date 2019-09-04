@@ -49,8 +49,8 @@
 				<?php foreach ($livros as $livro) : ?>		
 				<tr>			
 					<td><?php echo $livro['id']; ?></td>			
-					<td><?php echo utf8_encode($livro['titulo']); ?></td>
-					<td><?php echo utf8_encode($livro['nome']); ?></td>					
+					<td><?php echo $livro['titulo']; ?></td>
+					<td><?php echo $livro['nome']; ?></td>					
 					<td><?php echo $livro['validade']; ?></td>						
 					<td class="actions text-right">				
 				

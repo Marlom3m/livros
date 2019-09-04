@@ -1,7 +1,8 @@
 		</main> <!-- /container -->	
 		<hr>		
 			<footer class="container">			
-				<p>IFMS</p>		
+				<img src="<?php echo BASEURL; ?>instituto.png" width="20%" class="float-left">
+				<p class="text-right">Desenvolvedor: prof. Marlom Marsal Marques<br>Contato: marlom.marques@ifms.edu.br</p>
 			</footer>
 			<?php include(ABSPATH.'modalLogin.php'); ?>
 			<?php include(ABSPATH.'modalSenha.php'); ?>

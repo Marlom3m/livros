@@ -50,12 +50,12 @@
 				</div>
 			</a>
 	
-			<a href="consultas/index.php" class="btn btn-info">
+			<a href="#p" class="btn btn-info">
 				<div class="col-xs-12 text-center">
 					<i class="fa fa-search fa-5x"></i>
 				</div>
 				<div class="col-xs-12 text-center">
-					Consulta Livros Entregues
+					Consulta Livros Entregues - Em Breve
 				</div>
 			</a>
 			

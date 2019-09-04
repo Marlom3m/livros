@@ -37,7 +37,7 @@
 				<select class="form-control" id="area" onChange="getLivros(this.value)">
 					<option> Selecione a Área </option>
 					<?php foreach ($areas as $area) : ?>
-					<option value="<?php echo $area['id'];?>"><?php echo utf8_encode($area['nome']);?></option>
+					<option value="<?php echo $area['id'];?>"><?php echo $area['nome'];?></option>
 					<?php endforeach; ?>					
 				</select>
 			</div>

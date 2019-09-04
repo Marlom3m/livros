@@ -3,6 +3,7 @@
 	require_once(DBAPI);
 	$estudantes = null;
 	$estudante = null;		
+	session_start();
 	/**	 *  Listagem dos estudantes	 */	
 	function index() {		
 		global $estudantes;		

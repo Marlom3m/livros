@@ -12,16 +12,16 @@
 		<div class="row">	    
 			<div class="form-group col-md-7">	      
 				<label for="titulo">Título</label>	      
-				<input type="text" class="form-control" name="livro['titulo']" value="<?php echo utf8_encode($livro['titulo']); ?>">	    
+				<input type="text" class="form-control" name="livro['titulo']" value="<?php echo $livro['titulo']; ?>">	    
 			</div>
 			<div class="form-group col-md-2">
 				<label for="area">Área:</label>
 				<select class="form-control" id="sel1" name="livro['fk_area']">
 					<?php foreach ($areas as $area) :
 							if ($livro['fk_area'] == $area['id'])
-								echo '<option value='.$area['id'].' selected>'.utf8_encode($area["nome"]).'</option>';
+								echo '<option value='.$area['id'].' selected>'.$area["nome"].'</option>';
 							else 
-								echo '<option value='.$area['id'].'>'.utf8_encode($area['nome']).'</option>';
+								echo '<option value='.$area['id'].'>'.$area['nome'].'</option>';
 						endforeach;?>
 				</select>
 			</div>
