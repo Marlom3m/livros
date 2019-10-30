@@ -1,5 +1,5 @@
-<?php
-/** O nome do banco de dados*/	
+﻿<?php
+/**------------------------------------------------*/	
 define('DB_NAME', 'u411879655_book');
 		
 /** Usuário do banco de dados MySQL */	
