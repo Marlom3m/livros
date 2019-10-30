@@ -6,7 +6,9 @@ define('DB_NAME', 'u411879655_book');
 define('DB_USER', 'u411879655_book');		
 
 /** Senha do banco de dados MySQL */	
-define('DB_PASSWORD', 'maquina');		
+define('DB_PASSWORD', 'maquina');
+		
+// sou foda demais !!!!
 
 /** nome do host do MySQL */	
 define('DB_HOST', 'localhost');		
